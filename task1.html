@@ -1,0 +1,51 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <P id="Div"></P>
+        <h2>Arithmetic Operators</h2>
+        <h2 id="demo"></h2>
+        <h2>Square Root</h2>
+        <h1 id="class"></h1>
+        <h2>Area of triangle</h2>
+        <h1 id="angle"></h1>
+        
+        <script>
+            document.getElementById("Div").innerHTML="HELLO WORLD";
+            document.getElementById("Div").style.color="Red";
+        
+            
+                //arithmetic Operators
+            let a=6;
+            let b=6;
+             let add = a+b;
+            let sub = a-b;
+            let mul = a*b;
+            let div = a/b;
+            let mod = a%b;
+        
+
+           document.getElementById("demo").innerHTML=add + "<br>" + sub + "<br>" + mul + "<br>" +div +
+                                                    "<br>" + mod;
+ 
+        
+             // square root
+
+             let num = 16;
+             let result = Math.sqrt(num);
+             document.getElementById("class").innerHTML= result;
+
+             //Area of triangle
+
+             let base=3;
+             let height=6;
+             let Area = (1/2)*base*height;
+             document.getElementById("angle").innerHTML=Area;
+
+            
+
+            </script>   
+             </body>
+</html>
+                                                        
